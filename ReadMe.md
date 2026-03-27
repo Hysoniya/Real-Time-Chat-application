@@ -18,28 +18,35 @@ Install dependencies:
 npm install
 Start the frontend:
 npm start
-
+```
 The frontend will run on:
 👉 http://localhost:3000
 
 ⚙️ Backend Setup
 Navigate to the server directory:
+```bash
 cd server
 Install dependencies:
 npm install
+```
 Start the backend server:
+```
 nodemon index.js
+```
+
 🛠️ Tech Stack
 Frontend: React.js, JavaScript (ES6+), CSS
 Backend: Node.js, Express.js
 Real-Time Communication: Socket.IO
 Database: MongoDB
 Authentication: Bcrypt
+
 ✨ Features
 Real-time messaging with low latency
 Secure user authentication
 Responsive UI
 Scalable backend architecture
+
 📌 Note
 
 Make sure both frontend and backend servers are running simultaneously for proper functionality of the application.
